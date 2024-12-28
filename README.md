@@ -1,5 +1,10 @@
 # Trip.com                             
 
+// This is not in any ways affiliated to the Original Trip.com 
+
+
+
+
 This project is a simple flight price comparison website designed to help users search for and compare flight ticket prices from various airlines. The website is built using **HTML**, **CSS**, and **JavaScript**, focusing on a responsive and user-friendly front-end design.
 
 ---
