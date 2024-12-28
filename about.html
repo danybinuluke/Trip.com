@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --primary-color: #3d5cb8;
+  --primary-color-dark: #334c99;
+  --text-dark: #0f172a;
+  --text-light: #64748b;
+  --extra-light: #f1f5f9;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__header {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: var(--text-dark);
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--primary-color-dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display:flex;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.nav__logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link a {
+  font-weight: 500;
+  color: var(--text-light);
+  transition: 0.3s;
+}
+
+.link a:hover {
+  color: var(--text-dark);
+}
+.subscribe {
+    background-color: var(--extra-light);
+  }
+  
+  .subscribe__container {
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .subscribe__form {
+    margin-top: 2rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--white);
+    border-radius: 2rem;
+  }
+  
+  .subscribe__form input {
+    width: 100%;
+    padding: 0 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--text-dark);
+  }
+  
+  .footer {
+    background-color: var(--text-dark);
+  }
+  
+  .footer__container {
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    gap: 5rem;
+  }
+  
+  .footer__col h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 1rem;
+  }
+  
+  .footer__col h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 1rem;
+  }
+  
+  .footer__col p {
+    color: var(--extra-light);
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .footer__col p:hover {
+    color: var(--white);
+  }
+  
+  .footer__bar {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border-top: 1px solid var(--extra-light);
+  }
+  
+  .footer__bar p {
+    font-size: 0.9rem;
+    color: var(--extra-light);
+  }
+  
+  .socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .socials span {
+    font-size: 1.2rem;
+    color: var(--extra-light);
+  }
+
+  .abt .abt_header{
+    padding:35px 15px 25px 700px;
+    text-decoration: underline wavy; 
+  }
+  .abt .abt_description h3{
+    padding-left: 25px;
+    padding-top: 35px;
+  }
+  .abt .abt_description h4{
+    padding-left: 25px;
+  }
+  
+  .abt .abt_description p{
+    padding-left: 25px;
+    margin-bottom: 2rem;
+    justify-content: end;
+    display:flex;
+  }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav__logo">Trip.com</div>
+        <ul class="nav__links">
+          <li class="link"><a href="trip.html">Home</a></li>
+          <li class="link"><a href="#">About</a></li>
+          <li class="link"><a href="package.html">Packages</a></li>
+        </ul>
+        <a href="login.html"><button class="btn">Account</button></a>
+      </nav>
+      <hr>
+      <div class="abt">
+        <h1 class="abt_header"> About us</h3>
+          <div class="abt_description"> 
+            <h3>Trip.com: Empowering Travellers Worldwide</h3>
+            <p>In today's fast-paced world, where distances seem to shrink and the desire to explore grows ever stronger, the importance of efficient and reliable travel services cannot be overstated. 
+              Enter Trip.com – an online platform revolutionizing the way people plan, book, and experience travel. With a focus on providing unparalleled access to flight options at competitive prices, 
+              Trip.com has emerged as a trusted ally for travelers worldwide. In this comprehensive exploration, we delve into the essence of Trip.com, uncovering its history, mission, features, and the 
+              impact it has had on the travel industry and individual journeys alike.</p>
+            <h4>A Journey of Innovation</h4>
+            <p>The story of Trip.com is one of innovation, determination, and a relentless pursuit of excellence. Founded in 2024 as a small startup in SVNIT, 
+              Trip.com initially began as a humble endeavor, aiming to simplify the process of booking flights online. In the early days of the internet, when e-commerce 
+              was still in its infancy, the founders of Trip.com recognized the immense potential of leveraging technology to transform the travel industry.
+              Driven by a shared vision of empowering travelers with greater choice, convenience, and transparency, the team at Trip.com embarked on a journey of innovation. 
+              Through tireless dedication and a commitment to staying ahead of the curve, Trip.com rapidly evolved from its modest beginnings into a global powerhouse in the online travel sector.
+              Today, Trip.com stands as a testament to the transformative power of technology, with a comprehensive suite of services that cater to the diverse needs of modern travelers. From flights
+              and accommodations to car rentals and vacation packages, Trip.com offers a one-stop solution for all travel-related needs, making it easier than ever to explore the world with confidence and peace of mind.</p>
+            <h4>Empowering Travelers Worldwide</h4>
+            <p>At the heart of Trip.com's mission lies a simple yet powerful ethos: to empower travelers worldwide with the tools and resources they need to embark on unforgettable journeys. 
+              Whether it's a spontaneous weekend getaway, a long-awaited family vacation, or a crucial business trip, Trip.com is committed to providing travelers with unparalleled access to a 
+              vast array of flight options at competitive prices.One of the key pillars of Trip.com's success is its relentless focus on customer satisfaction. From the moment a traveler visits 
+              the website or mobile app to the completion of their journey, Trip.com prioritizes user experience above all else. With a sleek and intuitive interface, powerful search tools, and 
+              personalized recommendations, Trip.com ensures that every step of the travel planning and booking process is seamless and stress-free.            
+              Moreover, Trip.com's dedication to customer service extends far beyond the digital realm. With a team of knowledgeable and experienced travel experts available around the clock, 
+              travelers can rest assured that help is always just a click or a call away. Whether it's assistance with booking changes, travel advisories, or destination recommendations, Trip.com's 
+              customer support team is committed to going above and beyond to meet the needs of every traveler.</p>
+            <h4> A World of Choice </h4>
+            <p>One of the defining features of Trip.com is its unparalleled access to a vast network of flight options from leading airlines worldwide. 
+              Whether travelers are searching for the most affordable fares, flexible booking options, or premium amenities, Trip.com offers a diverse range of 
+              choices to suit every preference and budget.Through strategic partnerships with airlines, travel agencies, and other industry stakeholders, Trip.com is able to offer 
+              exclusive deals and discounts that are not available elsewhere. By leveraging its extensive network and purchasing power, Trip.com passes on the savings to its customers, 
+              ensuring that they get the best value for their money on every booking.
+              Furthermore, Trip.com's commitment to transparency and fairness sets it apart from other online travel agencies. Unlike some competitors who engage in deceptive pricing practices or hidden fees, 
+              Trip.com prides itself on providing clear and upfront pricing information, allowing travelers to make informed decisions with confidence.
+              In addition to flights, Trip.com also offers a wide range of ancillary services to enhance the travel experience. From airport transfers and travel insurance to visa assistance and destination guides, 
+              Trip.com is dedicated to providing travelers with everything they need to make their journey unforgettable.</p>
+            <h4>Impact on the Travel Industry</h4>
+            <p>Since its inception, Trip.com has had a profound impact on the travel industry, reshaping the way people plan, book, and experience travel. By harnessing the power of technology and innovation, 
+              Trip.com has democratized access to travel, making it more accessible and affordable for people around the world.
+              One of the most significant contributions of Trip.com to the travel industry is its role in driving competition and consumer choice. By offering a platform where travelers can compare prices, read reviews, 
+              and make informed decisions, Trip.com has forced traditional brick-and-mortar travel agencies to adapt or face obsolescence. This has resulted in greater transparency, lower prices, and a higher standard of 
+              service across the industry as a whole.Furthermore, Trip.com's emphasis on customer satisfaction and convenience has raised the bar for online travel agencies worldwide. As competitors strive to emulate Trip.com's 
+              success, travelers stand to benefit from an increasingly competitive marketplace, with more options, better service, and lower prices than ever before.</p>
+      </div>
+      <section class="subscribe">
+        <div class="section__container subscribe__container">
+          <h2 class="section__header">Subscribe newsletter & get latest news</h2>
+          <form class="subscribe__form">
+            <input type="text" placeholder="Enter your email here" />
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+  
+      <footer class="footer">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <h3>Trip.com</h3>
+            <p>
+              Where Excellence Takes Flight. With a strong commitment to customer
+              satisfaction and a passion for air travel, Trip.com offers
+              exceptional service and seamless journeys.
+            </p>
+            <p>
+              From friendly smiles to state-of-the-art aircraft, we connect the
+              world, ensuring safe, comfortable, and unforgettable experiences.
+            </p>
+          </div>
+          <div class="footer__col">
+            <h4>INFORMATION</h4>
+            <a href="Trip.html"><p>Home</p></a>
+            <a href="#"><p>About</p></a>
+
+            <a href="package.html"><p>Packages</p></a>
+
+          </div>
+        
+        </div>
+        <div class="section__container footer__bar">
+          <p>Copyright &copy; 2024 Trip.com. All rights reserved.</p>
+          <div class="socials">
+            <span><a href="https://www.facebook.com"><i class="ri-facebook-fill"></i></a></span>
+            <span><a href="https://www.twitter.com"><i class="ri-twitter-fill"></i></a></span>
+            <span><a href="https://www.instagram.com"><i class="ri-instagram-line"></i></a></span>
+            <span><a href="https://www.youtube.com"><i class="ri-youtube-fill"></i></a></span>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>   
+      
+    
