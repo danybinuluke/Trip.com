@@ -30,7 +30,7 @@ This project is a simple flight price comparison website designed to help users 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/flight-price-comparison.git
+   git clone https://github.com/danybinuluke/Trip.com.git
    ```
 2. Navigate to the project directory:
    ```bash
