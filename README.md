@@ -34,9 +34,9 @@ This project is a simple flight price comparison website designed to help users 
    ```
 2. Navigate to the project directory:
    ```bash
-   cd flight-price-comparison
+   cd Trip.com
    ```
-3. Open the `index.html` file in your browser to view the website.
+3. Open the `Trip.html` file in your browser to view the website.
 
 ---
 
@@ -74,8 +74,8 @@ Contributions are welcome! If you'd like to improve this project, feel free to f
 
 ## Contact
 
-If you have any questions or suggestions, please contact me at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or suggestions, please contact me at [danybinu2005@gmail.com](mailto:danybinu2005@gmail.com).
 
-**GitHub Profile**: [your-username](https://github.com/your-username/)
+**GitHub Profile**: [danybinuluke](https://github.com/danybinuluke/)
 
 
