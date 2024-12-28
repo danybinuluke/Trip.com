@@ -1,6 +1,6 @@
 # Trip.com                             
 
-// This is not in any ways affiliated to the Original Trip.com 
+This is not in any ways affiliated to the original Trip.com
 
 
 
